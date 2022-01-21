@@ -20,11 +20,15 @@ public class Restaurant {
     ourLaunchMenu.addItem(newItem1);
     ourLaunchMenu.addItem(newItem3);
     ourLaunchMenu.addItem(newItem2);
+    ourLaunchMenu.addItem(newItem2);
+
 
     ourLaunchMenu.printMenu();
 
     ourLaunchMenu.removeItem(newItem1);
     ourLaunchMenu.printMenu();
+
+
 
 
     }

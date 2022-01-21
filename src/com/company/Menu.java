@@ -30,6 +30,12 @@ public class Menu {
     }
 
     public ArrayList<MenuItem> addItem(MenuItem item) {
+        for (int i = 0; i < items.size(); i++){
+            if (items.get(i).equals(item)){
+                System.out.println(item.getName() + " is already on the menu!");
+                return this.items;
+            }
+        }
         this.items.add(item);
         return this.items;
     }
