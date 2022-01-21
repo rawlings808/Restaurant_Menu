@@ -1,6 +1,5 @@
 package com.company;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -61,7 +60,7 @@ public class Menu {
 
     public void printMenu(){
         for (int i = 0; i < items.size(); i++){
-            System.out.println(items.get(i).getName() +": " + items.get(i).getDescription() +". "+ items.get(i).getPrice());
+            System.out.println(items.get(i).getName() +": " + items.get(i).getDescription() +". $"+ items.get(i).getPrice());
         }
 
     }
