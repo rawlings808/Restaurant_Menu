@@ -55,7 +55,7 @@ public class Menu {
 
     public void printMenu(){
         for (int i = 0; i < items.size(); i++){
-            System.out.println(items.get(i).getDescription());
+            System.out.println(items.get(i).getName() +": " + items.get(i).getDescription() +". "+ items.get(i).getPrice());
         }
 
     }
